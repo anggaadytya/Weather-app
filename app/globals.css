@@ -1,33 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+.main-cover {
+  @apply w-[100vw] h-[100vh] flex relative p-12
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.elipse1 {
+  @apply absolute top-0 left-0 -z-10
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.elipse2 {
+  @apply absolute top-[50%] translate-y-[-50%] right-0 -z-10
 }
+
+.elipse3 {
+  @apply absolute bottom-0 left-0 -z-10
+}
+
+.main-content {
+  @apply w-full h-[90vh] border-4 border-neutral-900 rounded-3xl flex flex-col px-10 py-5
+}
+
+.nav-content {
+  @apply w-full h-full flex justify-between items-center
+}
+
+.menu-content {
+  @apply w-full h-full flex justify-evenly items-center
+}
+
+.card-content {
+  @apply w-full h-full flex justify-center items-center rounded-3xl bg-white shadow-md shadow-black 
+}
+
+.card-main {
+  @apply w-full h-full flex justify-around items-center
+}
+
+h1 {
+  @apply text-xl text-neutral-900 font-bold
+}
+
+h2 {
+  @apply text-base text-neutral-900 font-bold
+}
+
+p {
+  @apply text-sm text-neutral-900
+}
+
+
+.btn {
+  @apply w-full h-full flex justify-center items-center rounded-3xl outline outline-yellow-300 px-4 py-2
+}
+
+
+
