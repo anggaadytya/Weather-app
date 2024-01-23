@@ -11,7 +11,7 @@
 
 
 .main-cover {
-  @apply w-[100vw] h-[100vh] flex relative p-12
+  @apply w-[100vw] h-[100vh] flex relative p-2 md:p-12
 }
 
 .elipse1 {
@@ -27,11 +27,11 @@
 }
 
 .main-content {
-  @apply w-full h-[90vh] border-4 border-neutral-900 rounded-3xl flex flex-col px-10 py-5
+  @apply w-full h-full md:h-[90vh] border-4 border-neutral-900 rounded-3xl px-5 md:px-10 flex flex-col justify-between items-center py-5 md:py-10 lg:py-5
 }
 
 .nav-content {
-  @apply w-full h-full flex justify-between items-center
+  @apply w-full h-full flex justify-between items-start
 }
 
 .menu-content {
@@ -39,28 +39,16 @@
 }
 
 .card-content {
-  @apply w-full h-full flex justify-center items-center rounded-3xl bg-white shadow-md shadow-black 
+  @apply w-full h-full flex justify-center items-end 
 }
 
 .card-main {
-  @apply w-full h-full flex justify-around items-center
-}
-
-h1 {
-  @apply text-xl text-neutral-900 font-bold
-}
-
-h2 {
-  @apply text-base text-neutral-900 font-bold
-}
-
-p {
-  @apply text-sm text-neutral-900
+  @apply w-full h-[6rem] md:h-[8rem] flex justify-around items-center rounded-3xl bg-white shadow-md shadow-black 
 }
 
 
 .btn {
-  @apply w-full h-full flex justify-center items-center rounded-3xl outline outline-yellow-300 px-4 py-2
+  @apply w-full h-full flex justify-center items-center rounded-3xl outline outline-yellow-300 px-2 py-[2px] md:px-4 md:py-2 text-[10px] md:text-base lg:text-lg
 }
 
 
