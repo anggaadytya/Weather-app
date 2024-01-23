@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://github.com/AnggaAdytya",
   },
   openGraph: {
-    url: "https://my-weather-app.vercel.app",
+    url: "https://my-weather-app-angga.vercel.app",
     siteName: "Weather App",
     locale: "en",
     type: "website",

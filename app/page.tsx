@@ -1,6 +1,6 @@
-import { Calendar, Map, Snowflake, Sun, Wind } from "lucide-react";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import { Calendar, Map, Snowflake, Sun, Wind } from "lucide-react";
 
 export default function Home() {
   return (
@@ -61,8 +61,9 @@ export default function Home() {
               "https://res.cloudinary.com/ddugt5n5v/image/upload/v1705907256/image_1-removebg-preview_bucnwe.png"
             }
             alt="image 1"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
+            loading="lazy"
             className="h-44 w-44 md:w-64 md:h-64 lg:w-80 lg:h-80"
           />
           <div className="flex flex-col gap-3">
@@ -100,20 +101,18 @@ export default function Home() {
               </h1>
             </div>
             <div>
-              <Map className="font-light text-yellow-400 w-2 h-2 md:h-4 md:w-4 lg:h-6 lg:w-6" />
+              <Map className="font-light text-yellow-600 w-2 h-2 md:h-4 md:w-4 lg:h-6 lg:w-6" />
               <h2 className="text-[10px] text-base font-medium">
                 Where do you want to go
               </h2>
-              <p className="text-[8px] md:text-xs font-light text-neutral-400">
+              <p className="text-[8px] md:text-xs font-normal">
                 Choose your destination
               </p>
             </div>
             <div>
-              <Calendar className="font-light text-yellow-400 w-2 h-2 md:h-4 md:w-4 lg:h-6 lg:w-6" />
+              <Calendar className="font-light text-yellow-600 w-2 h-2 md:h-4 md:w-4 lg:h-6 lg:w-6" />
               <h2 className="text-[10px] md:text-xs font-medium">Date</h2>
-              <p className="text-[8px] md:text-xs font-light text-neutral-400">
-                Set a Date
-              </p>
+              <p className="text-[8px] md:text-xs font-normal">Set a Date</p>
             </div>
           </div>
         </div>
