@@ -25,17 +25,17 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/ddugt5n5v/image/upload/v1704298938/metadata/Screenshot_2024-01-03_232042_dkbem2.png",
+        url: "https://res.cloudinary.com/ddugt5n5v/image/upload/v1706008318/718af308-4c5b-4ed6-be32-ab17430f6c06_rqybiy.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://res.cloudinary.com/ddugt5n5v/image/upload/v1704298938/metadata/Screenshot_2024-01-03_232042_dkbem2.png",
+        url: "https://res.cloudinary.com/ddugt5n5v/image/upload/v1706008318/718af308-4c5b-4ed6-be32-ab17430f6c06_rqybiy.png",
         width: 1200,
         height: 630,
       },
       {
-        url: "https://res.cloudinary.com/ddugt5n5v/image/upload/v1704298938/metadata/Screenshot_2024-01-03_232042_dkbem2.png",
+        url: "https://res.cloudinary.com/ddugt5n5v/image/upload/v1706008318/718af308-4c5b-4ed6-be32-ab17430f6c06_rqybiy.png",
         width: 1600,
         height: 900,
       },
