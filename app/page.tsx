@@ -103,7 +103,7 @@ export default function Home() {
             </div>
             <div>
               <Map className="font-light text-yellow-600 w-2 h-2 md:h-4 md:w-4 lg:h-6 lg:w-6" />
-              <h2 className="text-[10px] text-base font-medium">
+              <h2 className="text-[10px] md:text-base font-medium">
                 Where do you want to go
               </h2>
               <p className="text-[8px] md:text-xs font-normal">
