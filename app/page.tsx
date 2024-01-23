@@ -61,9 +61,10 @@ export default function Home() {
               "https://res.cloudinary.com/ddugt5n5v/image/upload/v1705907256/image_1-removebg-preview_bucnwe.png"
             }
             alt="image 1"
-            width={300}
-            height={300}
-            loading="lazy"
+            width={400}
+            height={400}
+            loading="eager"
+            
             className="h-44 w-44 md:w-64 md:h-64 lg:w-80 lg:h-80"
           />
           <div className="flex flex-col gap-3">
